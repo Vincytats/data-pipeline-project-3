@@ -23,7 +23,7 @@ jobs:
           pip install pandas
 
       - name: Run pipeline
-        run: python pipeline.py
+        run: python scripts/pipeline.py
 
       - name: Commit updated dataset
         run: |
